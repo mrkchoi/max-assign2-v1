@@ -31,6 +31,7 @@ export class App extends Component {
         <UserInput
           onChange={this.UserInputHandler}
           userInput={this.state.inputText.length}
+          value={this.state.inputText}
         />
         <ValidationComponent inputLength={this.state.inputText.length} />
         <CharComponent

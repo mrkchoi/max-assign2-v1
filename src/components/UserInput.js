@@ -10,6 +10,7 @@ export default function UserInput(props) {
           control={TextArea}
           placeholder="Enter your text..."
           onChange={props.onChange}
+          value={props.value}
         />
       </Form>
       <Header as="h3">User output</Header>
